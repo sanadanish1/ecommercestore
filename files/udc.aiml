@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hi</pattern>
+    <template>Hi, Welcome to Non-Stop E-Shop. How can we help you?</template>
+  </category>
+  <category><pattern>Hello</pattern><template><srai>Hi</srai></template></category>
+  <category><pattern>greetings</pattern><template><srai>Hi</srai></template></category>
+  
+  <category>
+    <pattern>What kind of products do you have</pattern>
+    <template>We serve wide range of products including healthcare products,home appliances, shoes and cosmetics</template>
+  </category>
+  <category>
+   <pattern>What do you sell on your website</pattern>
+   <template><srai>What kind of products do you have</srai></template>
+  </category>
+  <category>
+   <pattern>What type of things do you offer at your store</pattern>
+   <template><srai>What kind of products do you have</srai></template>
+  </category>
+
+  <category>
+    <pattern>What kind of shoes you have</pattern>
+    <template>We offer high heels, plateform pumps, joggers, sneakers and ankle boots </template>
+  </category>
+  
+  <category>
+    <pattern>Tell me about your collection of shoes</pattern>
+    <template> <srai> what kind<star/></srai> </template>
+  </category>
+  
+  <category>
+    <pattern>Do you have sneakers</pattern>
+    <template>Yes, tell us about your requirements</template>
+  </category>
+  
+  <category>
+    <pattern>I want * sneakers</pattern>
+    <template>Sure, please go to shoes section on our website and choose according to your choice.</template>
+  </category>
+  
+  <category>
+    <pattern>I want to buy something else</pattern>
+    <template>Sure, what do you want to buy other than sneakers?</template>
+  </category>
+  
+  <category>
+    <pattern>I need microwave oven and sandwich maker </pattern>
+    <template>Good, please visit section of 'Home Appliances' on our website and choose according to your choice.</template>
+  </category>
+  
+  <category>
+    <pattern>What is price of sandwich maker </pattern>
+    <template>You are talking about sandwich maker of which company?</template>
+  </category>
+  
+  <category>
+    <pattern>I'm talking about * comapany</pattern>
+    <template>Ok, price of sandwich makers by <star/> ranges from 3000 to 6000 Rupees</template>
+  </category>
+  
+   <category>
+    <pattern>is there any discount on * </pattern>
+    <template>Well, we don't offer discount on <star/> specifically. However there is discount of upto 25% for shopping upto Rs 5000</template>
+  </category>
+  
+  <category>
+    <pattern>do you have sunblock by Yuraj UK  </pattern>
+    <template>Yes, we confirm your this requirement </template>
+  </category>
+  
+  <category>
+    <pattern>For which type of skin * is available </pattern>
+    <template>Well, <star/> is available for all types of skin</template>
+  </category>
+  
+  <category>
+    <pattern>Do you give guarantee for your products</pattern>
+    <template>Yes we give 6 months warranty for all products other than cosmetics</template>
+  </category>
+  
+  
+   <category>
+    <pattern>Are your products changeable </pattern>
+    <template>Products are changable within 3 days.However change of mind will not be acceptable after 3 days of booking</template>
+  </category>
+  <category>
+    <pattern>what if the product is not as like I ordered online</pattern>
+    <template><srai>Are your products changable</srai></template>
+  </category>
+  
+  <category>
+    <pattern>In how many days order is delivered </pattern>
+    <template>It depends in which city do you want the order to be delivered</template>
+  </category>
+  <category>
+    <pattern>In * </pattern>
+    <template>Ok, order in * will be delivered within 4 working days</template>
+  </category>
+  
+  <category>
+    <pattern>What are the modes of payment </pattern>
+    <template>You can pay online though debit card or cash on delivery</template>
+  </category>
+  
+ 
+  <category>
+    <pattern>Confirm my order of * </pattern>
+    <template>your order of <star/> is confirmed THANKS </template>
+  </category>
+  
+   <category>
+    <pattern>How can I track my order </pattern>
+    <template>You can track your order through mobile App of our online store </template>
+  </category>
+   <category>
+    <pattern>What are the terms and conditions </pattern>
+    <template>We ensure the privacy of the customers.For further detail you can visit privacy policy on our website</template>
+  </category>
+  
+  <category>
+    <pattern>Ok. Thanks for your services.</pattern>
+    <template>Welcome, nice to chat with you.  Please recommend our products to your family and friends</template>
+  </category>
+  
+  <category>
+    <pattern>Bye </pattern>
+    <template>Bye. Have a good day.</template>
+  </category>
+</aiml>
